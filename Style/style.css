@@ -1,0 +1,324 @@
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+#border {
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    width: 12px;
+    height: 30px;
+    margin-left: 42px;
+    margin-bottom: 40px;
+
+}
+
+.width-menu{
+    width: 95px;
+    padding: 0px;
+
+}
+
+.menu1 {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.logo {
+    padding-top: 30px;
+    border-left: 1px solid white;
+}
+
+.click {
+    margin-bottom: 20px;
+}
+
+.btn {
+    width: 175px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: black;
+    border: none;
+    font-size: large;
+    text-align: start;
+}
+
+.btn:hover {
+    background-color: white;
+}
+
+.btn:hover .btn_text {
+    color: black;
+}
+
+.btn_text {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.btn-btn:before {
+    content: "";
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+    vertical-align: baseline;
+    border-radius: 50%;
+    background-color: #5492ce;
+    margin-right: 5px;
+  }
+
+/*////////////////////////2///////////////////////*/
+
+
+.container {
+    padding: 0px;
+}
+
+.menu2 {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+
+#Lines {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    width: 12px;
+    height: 30px;
+    margin-left: 42px;
+    margin-bottom: 40px;
+}
+
+.logo2 {
+    padding: 0px;
+}
+
+.RightPart {
+    margin-left: -40px;
+}
+
+.LiChecked {
+    content: "";
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+    vertical-align: middle;
+    border-radius: 50%;
+    background-color: #5492ce;
+    border: solid 1px black;
+    margin-right: 5px;
+    margin-left: -27.5px;
+    margin-top: 7px;
+}
+
+.LiUncheckedColor {
+    background-color: #999999;
+}
+
+.CheckText2 {
+    height: 70px;
+}
+
+.lineItem {
+    padding-left: 50px;
+}
+
+/*////////////////////////3///////////////////////*/
+
+#LeftSide {
+    min-width: 100px;
+}
+
+/*Длина левой полосы*/
+.Texts2 {
+    border-left: 1px solid black;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+#SmallText {
+    padding-top: 50px;
+    font-size: 18px;
+}
+
+.BigTitle2 {
+    font-size: 52px;
+}
+
+
+.RightPart {
+    margin-left: 20%;
+}
+
+.CheckText {
+    padding-bottom: 50px;
+}
+
+/*///////////////////////4////////////////////////*/
+
+.lineItem {
+    padding-left: 50px;
+}
+
+#RightText {
+    margin-top: -90px;
+}
+
+/*Длина правой полосы*/
+.full-screen-block2
+{
+    min-height: 100vh;
+}
+
+.full-screen-block22
+{
+    min-height: 100vh;
+}
+
+
+@media screen and (max-width: 1060px) {
+    .third-col {
+        padding-left: 150px;
+        margin-bottom: -250px;
+    }
+
+    .Texts2, .logo2 {
+        border-left: none;
+        min-height: 70vh;
+
+    }
+
+    .BigTitle2 {
+        font-size: 48px;
+    }    
+
+    #Lines,
+    .menu2 {
+        visibility: hidden;
+    }
+
+    #cont {
+        margin-top: 0px;
+    }
+
+    .full-screen-block {
+        height: 30vh;
+    }
+
+}
+
+
+/* 3,4 */
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+.bg-white {
+    background-color: white;
+    color: black;
+}
+
+
+/* 3,4 */
+
+
+.BigTitle {
+    font-size: 52px;
+}
+
+.Li {
+    content: "";
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+    vertical-align: middle;
+    border-radius: 50%;
+    background-color: #5492ce;
+    margin-right: 5px;
+}
+
+.LiUn {
+    background-color: #999999;
+}
+
+.CheckTextFirst {
+    padding-bottom: 75px;
+}
+
+.Circle {
+    height: 180px;
+    width: 180px;
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    border: black 15px solid;
+    box-shadow: 0 0 5px #5492ce;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.CircleUn {
+    height: 150px;
+    width: 150px;
+    background-color: #999999;
+    border: none;
+    box-shadow: none;
+}
+
+.CircleRight {
+    margin-top: 100px;
+}
+
+.CircleText {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 30%;
+}
+
+.CircleTextOne {
+    padding-top: 40%;
+}
+
+
+#BigTitle {
+    font-size: 52px;
+}
+
+.Texts {
+    padding-top: 100px;
+    padding-left: 50px;
+    margin-bottom: 20px;
+}
+
+.cont {
+    margin-left: -54px;
+    margin-top: -20px;
+}
+
+.contS {
+    margin-left: -54px;
+    margin-top: 130px;
+}
+
+.contO {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.contOn {
+    margin-top: 67px;
+    margin-bottom: 150px;
+}
+
+.contN {
+    margin-top: -15px;
+    margin-left: -52px;
+}
+
